@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A796809A1D2C217A005CB51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79680991D2C217A005CB51A /* AppDelegate.swift */; };
+		A796809C1D2C217A005CB51A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796809B1D2C217A005CB51A /* ViewController.swift */; };
+		A796809F1D2C217A005CB51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A796809D1D2C217A005CB51A /* Main.storyboard */; };
+		A79680A11D2C217A005CB51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79680A01D2C217A005CB51A /* Assets.xcassets */; };
+		A79680A41D2C217A005CB51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79680A21D2C217A005CB51A /* LaunchScreen.storyboard */; };
+		A79680AF1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79680AE1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A79680AB1D2C217A005CB51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A796808E1D2C2179005CB51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79680951D2C2179005CB51A;
+			remoteInfo = "SWCraftAL-KataRomanNumerals2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A79680961D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWCraftAL-KataRomanNumerals2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79680991D2C217A005CB51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A796809B1D2C217A005CB51A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A796809E1D2C217A005CB51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79680A01D2C217A005CB51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A79680A31D2C217A005CB51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A79680A51D2C217A005CB51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79680AA1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWCraftAL-KataRomanNumerals2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79680AE1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCraftAL_KataRomanNumerals2Tests.swift; sourceTree = "<group>"; };
+		A79680B01D2C217B005CB51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79680931D2C2179005CB51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79680A71D2C217A005CB51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A796808D1D2C2179005CB51A = {
+			isa = PBXGroup;
+			children = (
+				A79680981D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2 */,
+				A79680AD1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests */,
+				A79680971D2C217A005CB51A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79680971D2C217A005CB51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79680961D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2.app */,
+				A79680AA1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79680981D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2 */ = {
+			isa = PBXGroup;
+			children = (
+				A79680991D2C217A005CB51A /* AppDelegate.swift */,
+				A796809B1D2C217A005CB51A /* ViewController.swift */,
+				A796809D1D2C217A005CB51A /* Main.storyboard */,
+				A79680A01D2C217A005CB51A /* Assets.xcassets */,
+				A79680A21D2C217A005CB51A /* LaunchScreen.storyboard */,
+				A79680A51D2C217A005CB51A /* Info.plist */,
+			);
+			path = "SWCraftAL-KataRomanNumerals2";
+			sourceTree = "<group>";
+		};
+		A79680AD1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A79680AE1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift */,
+				A79680B01D2C217B005CB51A /* Info.plist */,
+			);
+			path = "SWCraftAL-KataRomanNumerals2Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79680951D2C2179005CB51A /* SWCraftAL-KataRomanNumerals2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79680B31D2C217B005CB51A /* Build configuration list for PBXNativeTarget "SWCraftAL-KataRomanNumerals2" */;
+			buildPhases = (
+				A79680921D2C2179005CB51A /* Sources */,
+				A79680931D2C2179005CB51A /* Frameworks */,
+				A79680941D2C2179005CB51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWCraftAL-KataRomanNumerals2";
+			productName = "SWCraftAL-KataRomanNumerals2";
+			productReference = A79680961D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79680A91D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79680B61D2C217B005CB51A /* Build configuration list for PBXNativeTarget "SWCraftAL-KataRomanNumerals2Tests" */;
+			buildPhases = (
+				A79680A61D2C217A005CB51A /* Sources */,
+				A79680A71D2C217A005CB51A /* Frameworks */,
+				A79680A81D2C217A005CB51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79680AC1D2C217A005CB51A /* PBXTargetDependency */,
+			);
+			name = "SWCraftAL-KataRomanNumerals2Tests";
+			productName = "SWCraftAL-KataRomanNumerals2Tests";
+			productReference = A79680AA1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A796808E1D2C2179005CB51A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ByBDesigns;
+				TargetAttributes = {
+					A79680951D2C2179005CB51A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A79680A91D2C217A005CB51A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A79680951D2C2179005CB51A;
+					};
+				};
+			};
+			buildConfigurationList = A79680911D2C2179005CB51A /* Build configuration list for PBXProject "SWCraftAL-KataRomanNumerals2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A796808D1D2C2179005CB51A;
+			productRefGroup = A79680971D2C217A005CB51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79680951D2C2179005CB51A /* SWCraftAL-KataRomanNumerals2 */,
+				A79680A91D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79680941D2C2179005CB51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79680A41D2C217A005CB51A /* LaunchScreen.storyboard in Resources */,
+				A79680A11D2C217A005CB51A /* Assets.xcassets in Resources */,
+				A796809F1D2C217A005CB51A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79680A81D2C217A005CB51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79680921D2C2179005CB51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A796809C1D2C217A005CB51A /* ViewController.swift in Sources */,
+				A796809A1D2C217A005CB51A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79680A61D2C217A005CB51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79680AF1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79680AC1D2C217A005CB51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79680951D2C2179005CB51A /* SWCraftAL-KataRomanNumerals2 */;
+			targetProxy = A79680AB1D2C217A005CB51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A796809D1D2C217A005CB51A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A796809E1D2C217A005CB51A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A79680A21D2C217A005CB51A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79680A31D2C217A005CB51A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79680B11D2C217B005CB51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A79680B21D2C217B005CB51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79680B41D2C217B005CB51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SWCraftAL-KataRomanNumerals2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bybdesigns.SWCraftAL-KataRomanNumerals2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A79680B51D2C217B005CB51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SWCraftAL-KataRomanNumerals2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bybdesigns.SWCraftAL-KataRomanNumerals2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A79680B71D2C217B005CB51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SWCraftAL-KataRomanNumerals2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bybdesigns.SWCraftAL-KataRomanNumerals2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWCraftAL-KataRomanNumerals2.app/SWCraftAL-KataRomanNumerals2";
+			};
+			name = Debug;
+		};
+		A79680B81D2C217B005CB51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SWCraftAL-KataRomanNumerals2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bybdesigns.SWCraftAL-KataRomanNumerals2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWCraftAL-KataRomanNumerals2.app/SWCraftAL-KataRomanNumerals2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79680911D2C2179005CB51A /* Build configuration list for PBXProject "SWCraftAL-KataRomanNumerals2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79680B11D2C217B005CB51A /* Debug */,
+				A79680B21D2C217B005CB51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79680B31D2C217B005CB51A /* Build configuration list for PBXNativeTarget "SWCraftAL-KataRomanNumerals2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79680B41D2C217B005CB51A /* Debug */,
+				A79680B51D2C217B005CB51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A79680B61D2C217B005CB51A /* Build configuration list for PBXNativeTarget "SWCraftAL-KataRomanNumerals2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79680B71D2C217B005CB51A /* Debug */,
+				A79680B81D2C217B005CB51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A796808E1D2C2179005CB51A /* Project object */;
+}
