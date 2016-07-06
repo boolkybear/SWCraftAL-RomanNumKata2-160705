@@ -13,6 +13,7 @@
 		A79680A11D2C217A005CB51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79680A01D2C217A005CB51A /* Assets.xcassets */; };
 		A79680A41D2C217A005CB51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79680A21D2C217A005CB51A /* LaunchScreen.storyboard */; };
 		A79680AF1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79680AE1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift */; };
+		A79680BB1D2C21E4005CB51A /* String+Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79680BA1D2C21E4005CB51A /* String+Roman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A79680AA1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWCraftAL-KataRomanNumerals2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79680AE1D2C217A005CB51A /* SWCraftAL_KataRomanNumerals2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCraftAL_KataRomanNumerals2Tests.swift; sourceTree = "<group>"; };
 		A79680B01D2C217B005CB51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79680BA1D2C21E4005CB51A /* String+Roman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Roman.swift"; path = "SWCraftAL-KataRomanNumerals2/String+Roman.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		A796808D1D2C2179005CB51A = {
 			isa = PBXGroup;
 			children = (
+				A79680B91D2C21AC005CB51A /* Katas */,
 				A79680981D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2 */,
 				A79680AD1D2C217A005CB51A /* SWCraftAL-KataRomanNumerals2Tests */,
 				A79680971D2C217A005CB51A /* Products */,
@@ -94,6 +97,14 @@
 				A79680B01D2C217B005CB51A /* Info.plist */,
 			);
 			path = "SWCraftAL-KataRomanNumerals2Tests";
+			sourceTree = "<group>";
+		};
+		A79680B91D2C21AC005CB51A /* Katas */ = {
+			isa = PBXGroup;
+			children = (
+				A79680BA1D2C21E4005CB51A /* String+Roman.swift */,
+			);
+			name = Katas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A796809C1D2C217A005CB51A /* ViewController.swift in Sources */,
+				A79680BB1D2C21E4005CB51A /* String+Roman.swift in Sources */,
 				A796809A1D2C217A005CB51A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
