@@ -23,11 +23,9 @@ extension String {
 	}
 	
 	func signum(value: Int) -> Int {
-		if value >= 0 {
-			return 1
-		} else {
-			return -1
-		}
+		let safeValue = value | 1
+		
+		return abs(safeValue) / safeValue
 	}
 	
 	func zero(value: Int) -> Int {
