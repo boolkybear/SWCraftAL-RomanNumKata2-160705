@@ -22,14 +22,6 @@ extension String {
 		return charMap[char]!
 	}
 	
-	func addString(char1: String, to char2: String) -> Int {
-		return convertChar(char1) + convertChar(char2)
-	}
-	
-	func subtractString(subtractor: String, from value: String) -> Int {
-		return convertChar(value) - convertChar(subtractor)
-	}
-	
 	var fromRomanNumeral: Int {
 		
 		let specialChars = ["I", "X", "C"]
@@ -52,12 +44,11 @@ extension String {
 			} else {
 				if accumulatedValue < currentValue {
 					buffer -= accumulatedValue
-					buffer += currentValue
 				} else {
 					buffer += accumulatedValue
-					buffer += currentValue
 				}
 				
+				buffer += currentValue
 				accumulatedValue = 0
 			}
 			
