@@ -41,19 +41,17 @@ extension String {
 		var buffer = 0
 		var accumulatedValue = 0
 		
-		var index = self.startIndex
-		
-		repeat {
-			let singleChar = String(self[index])
-			let currentValue = convertChar(singleChar)
-			
-			buffer += accumulatedValue * signum(accumulatedValue - currentValue)
-			buffer += currentValue * zero(accumulatedValue)
-			
-			accumulatedValue = currentValue * nonzero(accumulatedValue)
-			
-			index = index.successor()
-		} while index != self.endIndex
+		characters
+			.map { String($0) }
+			.map { convertChar($0) }
+			.forEach {
+				currentValue in
+				
+				buffer += accumulatedValue * signum(accumulatedValue - currentValue)
+				buffer += currentValue * zero(accumulatedValue)
+				
+				accumulatedValue = currentValue * nonzero(accumulatedValue)
+			}
 		
 		buffer += accumulatedValue
 		
