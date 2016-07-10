@@ -31,11 +31,7 @@ extension String {
 	}
 	
 	func zero(value: Int) -> Int {
-		if value == 0 {
-			return 0
-		} else {
-			return 1
-		}
+		return (value ^ value) & 1
 	}
 	
 	func nonzero(value: Int) -> Int {
