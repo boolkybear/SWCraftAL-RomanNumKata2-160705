@@ -41,10 +41,10 @@ extension String {
 			let singleChar = String(self[index])
 			let currentValue = convertChar(singleChar)
 			
+			buffer += accumulatedValue * signum(accumulatedValue - currentValue)
 			if accumulatedValue == 0 {
 				accumulatedValue = currentValue
 			} else {
-				buffer += accumulatedValue * signum(accumulatedValue - currentValue)
 				buffer += currentValue
 				
 				accumulatedValue = 0
