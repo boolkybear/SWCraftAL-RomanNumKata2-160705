@@ -59,9 +59,7 @@ extension String {
 			index = index.successor()
 		} while index != self.endIndex
 		
-		if accumulatedValue != 0 {
-			buffer += accumulatedValue
-		}
+		buffer += accumulatedValue
 		
 		return buffer
 	}
