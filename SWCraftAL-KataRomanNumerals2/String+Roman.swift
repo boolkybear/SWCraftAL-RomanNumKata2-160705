@@ -30,6 +30,18 @@ extension String {
 		}
 	}
 	
+	func zero(value: Int) -> Int {
+		if value == 0 {
+			return 0
+		} else {
+			return 1
+		}
+	}
+	
+	func nonzero(value: Int) -> Int {
+		return zero(value) ^ 1
+	}
+	
 	var fromRomanNumeral: Int {
 		
 		var buffer = 0
@@ -42,13 +54,9 @@ extension String {
 			let currentValue = convertChar(singleChar)
 			
 			buffer += accumulatedValue * signum(accumulatedValue - currentValue)
-			if accumulatedValue == 0 {
-				accumulatedValue = currentValue
-			} else {
-				buffer += currentValue
-				
-				accumulatedValue = 0
-			}
+			buffer += currentValue * zero(accumulatedValue)
+			
+			accumulatedValue = currentValue * nonzero(accumulatedValue)
 			
 			index = index.successor()
 		} while index != self.endIndex
