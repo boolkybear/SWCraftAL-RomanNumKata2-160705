@@ -33,37 +33,39 @@ extension String {
 	var fromRomanNumeral: Int {
 		
 		let specialChars = ["I", "X", "C"]
-		let variations = ["IV", "IX", "XL", "XC", "CD", "CM"]
 		
 		var buffer = 0
-		var accumulator = ""
+		var accumulatedValue = 0
 		
 		var index = self.startIndex
 		
 		repeat {
 			let singleChar = String(self[index])
-			if accumulator.characters.count == 0 {
+			let currentValue = convertChar(singleChar)
+			
+			if accumulatedValue == 0 {
 				if specialChars.contains(singleChar) {
-					accumulator = singleChar
+					accumulatedValue = currentValue
 				} else {
-					buffer += convertChar(singleChar)
+					buffer += currentValue
 				}
 			} else {
-				let concatenation = accumulator + singleChar
-				if variations.contains(concatenation) {
-					buffer += subtractString(accumulator, from: singleChar)
+				if accumulatedValue < currentValue {
+					buffer -= accumulatedValue
+					buffer += currentValue
 				} else {
-					buffer += addString(accumulator, to: singleChar)
+					buffer += accumulatedValue
+					buffer += currentValue
 				}
 				
-				accumulator = ""
+				accumulatedValue = 0
 			}
 			
 			index = index.successor()
 		} while index != self.endIndex
 		
-		if accumulator.characters.count > 0 {
-			buffer += convertChar(accumulator)
+		if accumulatedValue != 0 {
+			buffer += accumulatedValue
 		}
 		
 		return buffer
