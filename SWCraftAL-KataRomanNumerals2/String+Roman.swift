@@ -22,6 +22,14 @@ extension String {
 		return charMap[char]!
 	}
 	
+	func signum(value: Int) -> Int {
+		if value >= 0 {
+			return 1
+		} else {
+			return -1
+		}
+	}
+	
 	var fromRomanNumeral: Int {
 		
 		let specialChars = ["I", "X", "C"]
@@ -42,11 +50,7 @@ extension String {
 					buffer += currentValue
 				}
 			} else {
-				if accumulatedValue < currentValue {
-					buffer -= accumulatedValue
-				} else {
-					buffer += accumulatedValue
-				}
+				buffer += accumulatedValue * signum(accumulatedValue - currentValue)
 				
 				buffer += currentValue
 				accumulatedValue = 0
