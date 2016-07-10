@@ -32,8 +32,6 @@ extension String {
 	
 	var fromRomanNumeral: Int {
 		
-		let specialChars = ["I", "X", "C"]
-		
 		var buffer = 0
 		var accumulatedValue = 0
 		
@@ -44,15 +42,11 @@ extension String {
 			let currentValue = convertChar(singleChar)
 			
 			if accumulatedValue == 0 {
-				if specialChars.contains(singleChar) {
-					accumulatedValue = currentValue
-				} else {
-					buffer += currentValue
-				}
+				accumulatedValue = currentValue
 			} else {
 				buffer += accumulatedValue * signum(accumulatedValue - currentValue)
-				
 				buffer += currentValue
+				
 				accumulatedValue = 0
 			}
 			
